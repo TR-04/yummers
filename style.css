@@ -181,6 +181,11 @@ body {
     font-size: small;
 }
 
+.about:hover, .experience:hover {
+    opacity: 0.8;
+}
+
+
 .contact {
     display: none;
 }
