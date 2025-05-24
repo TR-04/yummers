@@ -1,4 +1,3 @@
-
 const container1 = document.getElementById('c1');
 const container3 = document.getElementById('c3');
 const container6 = document.getElementById('c6');
@@ -25,10 +24,7 @@ about.addEventListener( "click", () => {
 
             AboutisClickable = true;
         }, 900);
-
-        
     }
-    
 });
 
 experience.addEventListener( "click", () => {
@@ -39,13 +35,9 @@ experience.addEventListener( "click", () => {
             document.body.classList.remove('container3-clicked');
 
             ExperienceisClickable = true;
-        }, 900);
-
-        
+        }, 900);   
     }
-    
 });
-
 
 // ABOUT //
 const new_to_original1 = () => {
@@ -80,7 +72,7 @@ const original_to_new3 = () => {
 };
 
 container3.addEventListener( "click", () => {
-    
+
     if (flipped3 === false) {
         original_to_new3()
     }
@@ -88,7 +80,6 @@ container3.addEventListener( "click", () => {
         new_to_original3()
     }
 });
-
 
 // ? //
 const new_to_original6 = () => {

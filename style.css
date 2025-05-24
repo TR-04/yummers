@@ -91,7 +91,7 @@ body {
     align-items: center;
 }
 
-.backrooms {
+.archive {
     font-family: 'Exile', sans-serif;
     display: flex;
     gap: 100px;
@@ -361,7 +361,6 @@ body {
    
 }
 
-
 @keyframes FadeAndSpin {
     0% {
         --angle: 0deg;
@@ -414,7 +413,6 @@ body {
     animation-duration: calc(125s / var(--i));
     z-index: 0;
     animation-name: float;
-
 }
 
 @keyframes float {
@@ -451,8 +449,6 @@ body {
     animation: animate 30s linear infinite;
     animation-name: scrollLeft;
     width: 100%;
-
-    
 }
 
 .banner:hover .item {
@@ -461,7 +457,6 @@ body {
 }
 
 @keyframes scrollLeft {
-
     to {
         left: -300px;
     }
