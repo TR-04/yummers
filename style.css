@@ -435,6 +435,7 @@ body {
     position: relative;
     border: 1px solid var(--border-color);
     width: 100%;
+    min-width: 1200px;
     margin-inline: auto;
     height: 20px;
     overflow: hidden;
